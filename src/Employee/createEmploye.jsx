@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-// import React from "react";
 
 const initialState = {
     employe: [{
@@ -148,7 +147,7 @@ const employeSlice = createSlice({
     initialState,
     reducers:{
         addEmploye:(state,action) => {
-            state.employe.push({...action.payload})
+        state.employe.push(action.payload)
         }
     }
 })

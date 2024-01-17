@@ -1,23 +1,50 @@
 .nav_container {
     height: 90px;
+    width: 100%;
     background-color: rgba(147,173,24,255);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    color: white;
+    align-items: center; 
 }
 h1{
-    color: rgba(90,111,7,255);
-   
+    color: rgba(90,111,7,255);  
 }
 span a{
     color: rgba(90,111,7,255);
-    font-weight: bold;
-   
-
+    font-weight: bold;  
 }
 .App-logo{
     width: 60px;
     margin-left: 3px;
-   
+}
+@media only screen and (max-width: 600px) {
+.nav_container{
+    justify-content: space-around;
+    background-color: rgba(147,173,24,255);
+    text-align: center;
+}
+.nav_container h1,span{
+    margin-left: 10%;
+    color: #000;
+}
+span a{
+    color: #000;
+}
+.App-logo{
+    display: none;
+}
+
+}
+@media only screen and (max-width: 768px) {
+    .nav_container{
+          flex-direction: column;
+          text-align: center;
+          height: 150px;
+    }
+    .nav_container h1,span{
+        margin-right: 10%;
+    }
+    .App-logo{
+        display: none;
+    }
 }
