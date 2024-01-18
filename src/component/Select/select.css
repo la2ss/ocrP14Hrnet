@@ -1,7 +1,1 @@
-.employee_container input {
-    padding: 12px 24px;
-    border: 1px solid #BDB76B;
-    border-radius: 12px;
-    margin: 12px 0;
-    background-color: rgba(147,173,24,0.45);
-}
+.employee_container input{padding:12px 24px;border:1px solid #bdb76b;border-radius:12px;margin:12px 0;background-color:rgba(147,173,24,.45)}
