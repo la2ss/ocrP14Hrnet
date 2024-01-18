@@ -5,6 +5,7 @@
     align-items: center;
     flex-direction: column;
     box-shadow: 5px 10px 15px 20px rgb(147,173,24,0.75);
+    margin-top: 40px;
 }
 
 .homepage_container h2 {
@@ -13,7 +14,10 @@
     font-size: 20px;
     padding:  20px;
 }
-
+.container .title{
+    color: #000;
+    font-weight: bold;
+}
 .container form {
     display: flex;
     justify-content: center;

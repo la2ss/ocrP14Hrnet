@@ -81,10 +81,9 @@ const Form = () => {
 
   return (
     <>
-      <h2>Create Employee</h2>
-      <div className="container">
-        
 
+      <div className="container">
+      <span className="title"> Create Employee</span>
         
         <form action="#" id="create-employee">
         <label> <span className="lab">First name</span> 
@@ -125,7 +124,7 @@ const Form = () => {
             }}
           />
           </label>
-         {errors && birth === "" || dateToday < new Date(birth).getTime() ?(
+         {(errors && birth === "") || dateToday < new Date(birth).getTime() ?(
             <p className="error_input">Votre date de naissance n'est pas conforme</p>
          ): ""} 
          <label className="birth"><span className="lab">Start Date </span> 
