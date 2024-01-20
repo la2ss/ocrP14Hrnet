@@ -16,9 +16,9 @@ https://github.com/OpenClassrooms-Student-Center/P12_Front-end
 
 ## Converted React NPM Component
 
-https://github.com/la2ss/ocrp14hrnetModal.\
-https://www.npmjs.com/package/form_modal_sucess.\
-https://github.com/la2ss/ocrp14hrnetModal.\
+https://github.com/la2ss/ocrp14hrnetModal .\
+https://www.npmjs.com/package/form_modal_sucess
+
 
 ## Available Scripts
 
