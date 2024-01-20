@@ -1,6 +1,6 @@
 # P14 Switch a jQuery library to React
 
-## WealthHealth - HRNet
+## WealthHealth - HRNet 
 
 Je travaille pour le département technologique d'une grande société financière, WealthHealth. Cette société utilise une application web interne, appelée HRnet, qui gère les dossiers des employés. L'application est ancienne et utilise jQuery côté front end, ce qui entraîne des bugs considérables et une augmentation des plaintes en interne.
 
@@ -17,7 +17,8 @@ https://github.com/OpenClassrooms-Student-Center/P12_Front-end
 ## Converted React NPM Component
 
 https://github.com/la2ss/ocrp14hrnetModal.\
-https://www.npmjs.com/package/form_modal_sucess
+https://www.npmjs.com/package/form_modal_sucess.\
+https://github.com/la2ss/ocrp14hrnetModal.\
 
 ## Available Scripts
 
